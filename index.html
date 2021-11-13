@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spock-Rock</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="SpockRock-container">
+      <div class="SpockRock-header">
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+      </div>
+      <div class="showScores">
+          <div class="playerScore">
+              <h2 class="player">Player</h2>
+              <span class="score-player">0</span>
+          </div>
+          <div class="computerScore">
+              <h2 class="computer">Computer</h2>
+              <span class="computer-score">0</span>
+          </div>
+      </div>
+      <div class="SpockRock-content">
+ <!--user click icons-->
+ <div class="User-choice">
+    <div class="show-result">
+      <h2>You-<span class="iconName-click">0</span></h2>
+    </div>
+    <div class="show-Icons user-icon">
+      <i class="far fa-hand-rock" id="Rock"></i>
+      <i class="far fa-hand-paper" id="Paper"></i>
+      <i class="far fa-hand-scissors" id="Scissors"></i>
+      <i class="far fa-hand-lizard" id="lizard"></i>
+      <i class="far fa-hand-spock" id="Spock"></i>
+    </div>
+  </div>
+  <!--computer choice random icons-->
+  <div class="Computer-choice">
+    <div class="show-result">
+      <h2>Computer-<span class="nameIconComputer">0</span></h2>
+    </div>
+    <div class="show-Icons">
+      <i class="far fa-hand-rock" id="RockIcon-computer"></i>
+      <i class="far fa-hand-paper" id="paperIcon-computer"></i>
+      <i class="far fa-hand-scissors" id="scissorsIcon-computer"></i>
+      <i class="far fa-hand-lizard" id="lizardIcon-computer"></i>
+      <i class="far fa-hand-spock" id="spockIcon-computer"></i>
+    </div>
+  </div>
+  <div class="refresh">
+    <i class="fas fa-sync-alt" id="refreshIcon"></i>
+  </div>
+  <div class="result-game">
+      <h1 id="result-game"></h1>
+  </div>
+      </div>
+     
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
